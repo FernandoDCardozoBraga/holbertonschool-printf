@@ -1,8 +1,8 @@
-#include "main.h"
+nclude "main.h"
 /**
- * _printf - print otput accordin to form
- * @format: char string
- * Return: num of char printed
+ *  _printf - Prints output according to format
+ *  @format: char string
+ *  Return: num of char printed
  */
 int _printf(const char *format, ...)
 {
@@ -14,12 +14,12 @@ int _printf(const char *format, ...)
 		return (-1);
 	while (*format != '\0')
 	{
-			if (*format != '%')
-			{
-				counter += _putchar(*format);
-				format++;
-				continue;
-			}
+		if (*format != '%')
+		{
+			counter += _putchar(*format);
+			format++;
+			continue;
+		}
 		format++;
 		switch (*format)
 		{
@@ -39,7 +39,7 @@ int _printf(const char *format, ...)
 			default:
 				while (*format != '%')
 					format--;
-			counter += _putchar(*format);
+				counter += _putchar(*format);
 		}
 		format++;
 	}
