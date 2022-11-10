@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  *  _printf - Prints output according to format
  *  @format: char string
