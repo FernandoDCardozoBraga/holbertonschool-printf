@@ -1,0 +1,34 @@
+.TH _printf 1 "11-11-2022" "_prinf man page"
+.SH NAME
+.B  _printf()
+-Format and print data
+
+.SH SYNOPSIS
+.B #include "main.h"
+is used to make _printf work
+.B int _printf(const char *format, ...);
+
+.B _printf() FORMAT [ARGUMENT]
+.B _printf() OPTION
+
+.SH DESCRIPTION
+.B  _printf()
+is used to print to the screen integers, characters, floats, decimals, strings octal and hexadecimal values.
+
+.B %c
+- Used to print a character
+
+.B %s
+- Used to print a string
+
+.B %d or %i
+- Used to print a integer
+
+.B %%
+- Use to print the % symbol
+
+.SH RETURN VALUE
+If the function was successful it returns the numbers of characters printed.
+If the function fail it returns a negative value
+.SH AUTHOR
+Fernando Cardozo
