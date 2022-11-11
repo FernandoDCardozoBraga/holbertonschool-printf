@@ -16,11 +16,19 @@ int _printf(const char *format, ...)
 	{
 
 		for (; *format != '%' && *format; format++)
+		{
 			_putchar(*format);
-	}
+		}
+
 
 		if (*format != '%')
-		format++
+		{
+			counter += _putchar(*format);
+			format++;
+			continue;
+		}
+		format++;
+
 		switch (*format)
 		{
 			case 'c':
