@@ -15,11 +15,9 @@ int _printf(const char *format, ...)
 	while (*format != '\0')
 	{
 		if (*format != '%')
-		{
+		
 			counter += _putchar(*format);
-			format++;
-			continue;
-		}
+
 		format++;
 		switch (*format)
 		{
