@@ -14,11 +14,13 @@ int _printf(const char *format, ...)
 		return (-1);
 	while (*format != '\0')
 	{
-		if (*format != '%')
-		
-			counter += _putchar(*format);
 
-		format++;
+		for (; *format != '%' && *format; format++)
+			_putchar(*format);
+	}
+
+		if (*format != '%')
+		format++
 		switch (*format)
 		{
 			case 'c':
