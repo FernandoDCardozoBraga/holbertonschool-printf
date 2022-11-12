@@ -2,10 +2,16 @@
 **By Fernando Cardozo**
 Purpose of the project: Replicate the printf function.
 
+-
+#**Function Description**
+## **_printf()**
+
+_printf is a function to do formatted printing. In this program we develop the function for simple printing and the format specificatrions printing.
+-
+
 ### Tasks:
 
 ------------
-
 
 0. Write a function that produces output according to a format.
 
@@ -33,6 +39,9 @@ Your code will be compiled this way:
 
 # **Flowchart:**
 ![Printf_flowchart](https://user-images.githubusercontent.com/113741582/201496215-ed02a7c5-8808-41bb-b1ac-b04939a885a1.png)
+
+
+
 
 
 
