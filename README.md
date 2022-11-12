@@ -1,8 +1,16 @@
-C - printf Project
-Team: Fernando Cardozo Vicente Debrun
+#C - printf Project
+By Fernando Cardozo
 
 Tasks:
 0. Write a function that produces output according to a format.
+Prototype: int _printf(const char *format, ...);
+Returns: the number of characters printed (excluding the null byte used to end output to strings)
+write output to stdout, the standard output stream
+format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers:
+c
+s
+%
+
 1. Handle the following conversion specifiers: d/i
 3. Create a man page for your function.
-![Printf_flowchart](https://user-images.githubusercontent.com/113741582/201398654-61b5d212-6507-457c-b11e-e4dfffc7656b.png)
+
